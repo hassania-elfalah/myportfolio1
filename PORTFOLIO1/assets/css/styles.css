@@ -904,6 +904,10 @@ button {
     flex-direction: column;
     gap: 1.5rem;
   }
+   .main {
+width: 100%;
+    height: calc(100vh - 80px);
+  }
   
   .button {
     width: 100%;
@@ -1455,6 +1459,7 @@ button {
   animation: float 6s ease-in-out infinite;
 
 }
+
 
 
 
