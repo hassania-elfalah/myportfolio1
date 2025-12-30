@@ -899,7 +899,7 @@ button {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 400px) {
   .hero__buttons {
     flex-direction: column;
     gap: 1.5rem;
@@ -1455,4 +1455,5 @@ button {
   animation: float 6s ease-in-out infinite;
 
 }
+
 
