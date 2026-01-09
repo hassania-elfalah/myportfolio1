@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hassania El-falah | Web Developer</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  
+  
+ <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+  <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Ajoutez ceci juste après la balise <body> -->
+<div class="loader">
+  <div class="loader__content">
+    <div class="loader__circle"></div>
+    <div class="loader__circle"></div>
+  </div>
+</div>
+
+<div id="particles-js" class="particles-js"></div>
+
+
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__container container">
+      <a href="#" class="nav__logo"><img class="logo" src="assets/img/logo2.png"></a>
+      <ul class="nav__list">
+        <li><a href="#home" class="nav__link active-link"><i class="ri-home-3-line"></i></a></li>
+        <li><a href="#about" class="nav__link"><i class='bx bx-user'></i></a></li>
+        <li><a href="#projects" class="nav__link"><i class="ri-folder-5-line"></i></a></li>
+        <li><a href="#skills" class="nav__link"><i class='bx bx-book'></i></a></li>
+        <li><a href="#experience" class="nav__link"><i class="ri-honour-line"></i></a></li>
+        <li><a href="#contact" class="nav__link"><i class="ri-send-plane-line"></i></a></li>
+      </ul>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Hero Section -->
+    <section class="hero section" id="home">
+      <div class="hero__container container grid">
+        <div class="hero__content">
+          <!-- Dans votre section hero -->
+<h1 class="hero__title glitch-effect">
+  <span class="glitch-text" data-text="Hassania El-falah">Hassania El-falah</span>
+  <span class="glitch-line"></span>
+  <span class="dev-text">Developer Web</span>
+</h1>
+          <!-- <h2 class="hero__subtitle">Web Développeuse </h2> -->
+          <p class="hero__description">
+            Passionate about web development and new technologies, currently seeking opportunities to apply my skills in a professional environment.
+          </p>
+          <div class="hero__buttons">
+            <a href="#projects" class="button button--primary">View Projects</a>
+            <a href="assets/pdf/CV EL-FALAH.pdf" download class="button button--secondary">Download CV</a>
+          </div>
+        </div>
+        <!-- <div class="hero__image">
+          <div class="hero__img-container">
+            <img src="assets/img/porte.jpg" alt="Hassania El-falah" class="hero__img">
+          </div>
+        </div> -->
+        <!-- Remplacez votre div hero__image actuelle par ce code -->
+<div class="hero__image">
+  <div class="image-container">
+    <img src="assets/img/A.png" alt="Hassania El-falah" class="hero__img">
+    <div class="image-overlay">
+      <div class="overlay-content">
+        <h3>Hassania El-falah</h3>
+        <p>Développeuse Web Fullstack</p>
+        <div class="social-links">
+          <a href="https://ma.linkedin.com/in/hassania-el-falah-021606363"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="https://github.com/hassania-elfalah"><i class="ri-github-fill"></i></a>
+          <a href="mailto:elfalahhassania@gmail.com"><i class="ri-mail-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__container grid">
+          <div class="about__image">
+            <img src="assets/img/full stack.jpg" alt="Hassania El-falah" class="about__img">
+          </div>
+          <div class="about__content">
+            <p class="about__text">
+              A student in digital development, passionate about the web and new technologies, I am seeking an opportunity to apply these innovative technologies in a professional environment.
+            </p>
+            <div class="about__social">
+              <a href="https://ma.linkedin.com/in/hassania-el-falah-021606363" target="_blank" class="about__social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a href="https://github.com/hassania-elfalah/
+              " target="_blank" class="about__social-link">
+                <i class="ri-github-fill"></i>
+              </a>
+              <a href="mailto:elfalahhassania@gmail.com" target="_blank" class="about__social-link">
+                <i class="ri-mail-fill"></i>
+              </a>
+
+
+
+            </div>
+            <p class="about__note">
+              I don't typically respond to messages on social networks. Please send me an email and I'll get back to you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Recent Projects</h2>
+        <div class="projects__container grid">
+          <!-- Project 1 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project1.png" alt="Ratiba Style" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Ratiba Style</h3>
+              <p class="project__description">
+                The RATIBA application specializes in children's clothing with international reach and competitive pricing.
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">HTML</span>
+                <span class="project__tech-item">CSS</span>
+                <span class="project__tech-item">Bootstrap</span>
+              </div>
+              <a href="https://project1-hassania-elfalah.vercel.app/" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project2.png" alt="Youssef Shop" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Youssef Shop</h3>
+              <p class="project__description">
+                A contemporary fashion brand making haute couture accessible to all without compromising quality or ethics.
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">HTML</span>
+                <span class="project__tech-item">CSS</span>
+                <span class="project__tech-item">JavaScript</span>
+                <span class="project__tech-item">PHP</span>
+              </div>
+              <a href="assets/img/project2.mp4" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project3.png" alt="Jumpy - Chasse aux Cafards" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Jumpy - Chasse aux Cafards</h3>
+              <p class="project__description">
+                A vertical arcade game where the player embodies a character (e.g., a cat or human)
+                 who jumps to crush randomly appearing cockroaches. A mix between Doodle Jump and a speed game.
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/Jumpy---Chasse-aux-Cafard/tree/main/pygame" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project4.jpg" alt="Détection de Triche" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Détection de Triche</h3>
+              <p class="project__description">
+                Surveillance d'Examen - Détection de Triche
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/projects-opencv1" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project5.png" alt="Simple Calculator" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Simple Calculator</h3>
+              <p class="project__description">
+                Simple Calculator
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/calculatrice-simple" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project6.png" alt="Nettoyeur" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Nettoyeur de Dossiers Faibles</h3>
+              <p class="project__description">
+                Nettoyeur de Dossiers Faibles
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/Nettoyeur-de-Dossiers-Faibles" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 7 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project7.png" alt="jumpy" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">jumpy</h3>
+              <p class="project__description">
+                "Jumpy" est un jeu de plateforme 2D de type "Doodle Jump" où le joueur contrôle 
+                un personnage (Jumpy) qui saute de plateforme en plateforme pour monter le plus haut possible
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/Jumpy" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 8 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project8.jpg" alt="reconnaissance_faciale" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">reconnaissance_faciale</h3>
+              <p class="project__description">
+                La reconnaissance faciale est une technologie biométrique qui permet d'identifier ou de 
+                vérifier une personne à partir d'une image ou d'une vidéo de son visage. Elle est utilisée 
+                  dans diverses applications, allant de la sécurité à la publicité en passant par 
+                  les réseaux sociaux
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/reconnaissance_faciale" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 9 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project9.jpg" alt="filter" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Snapchat-like Filters </h3>
+              <p class="project__description">
+                This Python application uses OpenCV to apply real-time 
+                filters to faces detected by your webcam, similar to Snapchat's face filters.
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">PYTHON</span>
+                
+              </div>
+              <a href="https://github.com/hassania-elfalah/filter" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 10 -->
+          <article class="project__card">
+            <div class="project__image">
+              <img src="assets/img/project10.png" alt="JSON" class="project__img">
+            </div>
+            <div class="project__content">
+              <h3 class="project__title">Gestion des commandes clients </h3>
+              <p class="project__description">
+                Cette application web suit une architecture client-serveur classique avec :
+
+Front-end : HTML/CSS/JavaScript (avec jQuery et Bootstrap)
+
+Back-end : PHP (fichiers getData.php et setData.php)
+
+Persistance : Probablement un fichier JSON ou base de données simple 
+              </p>
+              <div class="project__tech">
+                <span class="project__tech-item">Hack</span>
+                <span class="project__tech-item">CSS</span>
+                <span class="project__tech-item">PHP</span>
+              </div>
+              <a href="https://github.com/hassania-elfalah/project-json" target="_blank" class="project__link">
+                View Project <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__container grid">
+          <div class="skills__category">
+            <h3 class="skills__category-title">Frontend</h3>
+            <div class="skills__list">
+              <div class="skill__item">
+                <img src="assets/img/skills-html.svg" alt="HTML" class="skill__icon">
+                <span class="skill__name">HTML</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-css.svg" alt="CSS" class="skill__icon">
+                <span class="skill__name">CSS</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-javascript.svg" alt="JavaScript" class="skill__icon">
+                <span class="skill__name">JavaScript</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-bootstrap.svg" alt="Bootstrap" class="skill__icon">
+                <span class="skill__name">Bootstrap</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-react.svg" alt="React" class="skill__icon">
+                <span class="skill__name">React</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-tailwind-css.svg" alt="tailwind-css" class="skill__icon">
+                <span class="skill__name">Tailwind-Css</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skills__category">
+            <h3 class="skills__category-title">Backend</h3>
+            <div class="skills__list">
+              <div class="skill__item">
+                <img src="assets/img/skills-php.svg" alt="PHP" class="skill__icon">
+                <span class="skill__name">PHP</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-mysql.svg" alt="MySQL" class="skill__icon">
+                <span class="skill__name">MySQL</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-xampp.svg" alt="XAMPP" class="skill__icon">
+                <span class="skill__name">XAMPP</span>
+              </div>
+              <div class="skill__item">
+      <img src="assets/img/skills-python.svg" alt="Python" class="skill__icon">
+      <span class="skill__name">Python</span>
+    </div>
+            </div>
+          </div>
+          <!-- Add this new category after the Backend section -->
+<div class="skills__category">
+  <h3 class="skills__category-title">Programming Languages</h3>
+  <div class="skills__list">
+    <div class="skill__item">
+      <img src="assets/img/skills-javascript.svg" alt="JavaScript" class="skill__icon">
+      <span class="skill__name">JavaScript</span>
+    </div>
+    <div class="skill__item">
+      <img src="assets/img/skills-php.svg" alt="PHP" class="skill__icon">
+      <span class="skill__name">PHP</span>
+    </div>
+    <div class="skill__item">
+      <img src="assets/img/skills-python.svg" alt="Python" class="skill__icon">
+      <span class="skill__name">Python</span>
+    </div>
+  </div>
+</div>
+          
+          <div class="skills__category">
+            <h3 class="skills__category-title">Tools</h3>
+            <div class="skills__list">
+              <div class="skill__item">
+                <img src="assets/img/skills-github.svg" alt="GitHub" class="skill__icon">
+                <span class="skill__name">GitHub</span>
+              </div>
+                <div class="skill__item">
+                <img src="assets/img/skills-git.svg" alt="Git" class="skill__icon">
+                <span class="skill__name">Git</span>
+              </div>
+              <div class="skill__item">
+                <img src="assets/img/skills-figma.svg" alt="figma" class="skill__icon">
+                <span class="skill__name">Figma</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <h2 class="section__title">Education & Experience</h2>
+        <div class="experience__container">
+          <div class="experience__item">
+            <div class="experience__header">
+              <h3 class="experience__title">Diploma in Digital Development</h3>
+              <span class="experience__date">2024 - Present</span>
+            </div>
+            <div class="experience__content">
+              <ul class="experience__details">
+                <li>Web Development: HTML, CSS, JavaScript, PHP,reactjs</li>
+                <li>Databases: MySQL</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience__container">
+          <div class="experience__item">
+  <div class="experience__header">
+    <h3 class="experience__title">High School Diploma in Physical Sciences</h3>
+    <span class="experience__date">2024</span>
+  </div>
+  <div class="experience__content">
+    <ul class="experience__details">
+      <li>Physical Sciences Baccalaureate (Fairly Good Honors) – Al-Kindi High School, Ben Msik, Casablanca</li>
+    </ul>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates section" id="certificates">
+      <div class="container">
+        <h2 class="section__title">Certificates</h2>
+        <div class="certificates__container grid">
+          <div class="certificate__card">
+            <div class="certificate__icon">
+              <i class="ri-shield-check-line"></i>
+            </div>
+            <h3 class="certificate__title">Introduction to Cybersecurity</h3>
+            <a href="assets/pdf/certificate.pdf" class="certificate__link">
+              View Certificate <i class="ri-external-link-line"></i>
+            </a>
+          </div>
+        </div>
+        <br>
+
+                <div class="certificates__container grid">
+          <div class="certificate__card">
+            <div class="certificate__icon">
+              <i class="ri-shield-check-line"></i>
+            </div>
+            <h3 class="certificate__title">Python Essentials 1</h3>
+            <a href="assets/pdf/Python_Essentials_1_certificate_elfalahhassania-gmail-com_fcc2ca03-f9f9-4251-938c-3995c1293a80.pdf" class="certificate__link">
+              View Certificate <i class="ri-external-link-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <br>
+
+                <div class="certificates__container grid">
+          <div class="certificate__card">
+            <div class="certificate__icon">
+              <i class="ri-shield-check-line"></i>
+            </div>
+            <h3 class="certificate__title">Introduction to Data Science</h3>
+            <a href="assets/pdf/Introduction_to_Data_Science_certificate_elfalahhassania-gmail-com_f58ad6ca-f97e-4721-bac2-82e2257b711a.pdf" class="certificate__link">
+              View Certificate <i class="ri-external-link-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Get In Touch</h2>
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <p class="contact__text">
+              I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll get back to you as soon as possible!
+            </p>
+            <div class="contact__social">
+              <a href="https://www.facebook.com/falahe.el" target="_blank" class="contact__social-link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/maryame7938" target="_blank" class="contact__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://ma.linkedin.com/in/hassania-el-falah-021606363" target="_blank" class="contact__social-link">
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <a href="#" class="footer__logo">Hassania El-falah</a>
+        <p class="footer__copyright">
+          &copy; <span id="year"></span> All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+<script>
+   // Loader
+window.addEventListener('load', () => {
+  const loader = document.querySelector('.loader');
+  setTimeout(() => {
+    loader.classList.add('hidden');
+  }, 1000);
+});
+
+// Particles.js
+document.addEventListener('DOMContentLoaded', () => {
+  if (document.getElementById('particles-js')) {
+    particlesJS('particles-js', {
+      particles: {
+        number: { value: 80, density: { enable: true, value_area: 800 } },
+        color: { value: "#7c3aed" },
+        shape: { type: "circle" },
+        opacity: { value: 0.5, random: true },
+        size: { value: 3, random: true },
+        line_linked: { 
+          enable: true, 
+          distance: 150, 
+          color: "#7c3aed", 
+          opacity: 0.4, 
+          width: 1 
+        },
+        move: {
+          enable: true,
+          speed: 2,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out",
+          bounce: false
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: { enable: true, mode: "repulse" },
+          onclick: { enable: true, mode: "push" }
+        },
+        modes: {
+          repulse: { distance: 100, duration: 0.4 },
+          push: { particles_nb: 4 }
+        }
+      },
+      retina_detect: true
+    });
+  }
+
+  // Toast notification
+  const showToast = (message) => {
+    const toast = document.getElementById('toast');
+    toast.textContent = message;
+    toast.classList.add('show');
+    
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 3000);
+  };
+
+  // Form submission
+  const contactForm = document.getElementById('contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      // Simulate form submission
+      setTimeout(() => {
+        contactForm.reset();
+        showToast('Message sent successfully!');
+      }, 1000);
+    });
+  }
+
+  // Scroll reveal animations
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 1000,
+    delay: 200,
+    reset: true
+  });
+
+  sr.reveal('.hero__content, .hero__image', { delay: 300 });
+  sr.reveal('.section__title', { delay: 200 });
+  sr.reveal('.about__image, .about__content', { interval: 200 });
+  sr.reveal('.project__card', { interval: 200 });
+  sr.reveal('.skills__category', { interval: 200 });
+  sr.reveal('.experience__item', { interval: 200 });
+  sr.reveal('.certificate__card', { interval: 200 });
+  sr.reveal('.contact__info, .contact__form', { interval: 200 });
+
+  // Current year in footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+});
+</script>
+<script src="assets/js/scrollreveal.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
